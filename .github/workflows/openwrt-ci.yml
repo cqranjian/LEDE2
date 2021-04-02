@@ -420,6 +420,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-mwan3helper=y
           # CONFIG_PACKAGE_luci-app-v2ray-server=y
           # CONFIG_PACKAGE_luci-app-kod=y
+          # CONFIG_PACKAGE_luci-app-kodexplorer=y
           CONFIG_PACKAGE_luci-app-nfs=y
           # CONFIG_PACKAGE_luci-app-verysync=y
           CONFIG_PACKAGE_luci-app-usb-printer=y
@@ -427,6 +428,8 @@ jobs:
           # CONFIG_PACKAGE_luci-app-minidlna=y
           CONFIG_PACKAGE_qBittorrent=y
           # CONFIG_PACKAGE_luci-app-qbittorrent=y
+          # CONFIG_PACKAGE_luci-app-xlnetacc=y
+          # CONFIG_PACKAGE_luci-app-music-remote-center=y
           CONFIG_PACKAGE_luci-app-openvpn-server=y
           CONFIG_PACKAGE_luci-app-pptp-vpnserver=y
           CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
