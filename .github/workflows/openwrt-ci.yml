@@ -58,8 +58,8 @@ jobs:
        git clone https://github.com/kenzok8/small.git
        git clone https://github.com/destan19/OpenAppFilter.git
        git clone https://github.com/vernesong/OpenClash.git
-       git clone https://github.com/schen39/luci-app-serverchan.git
-       git clone https://github.com/cqranjian/luci-app-kod.git
+       # git clone https://github.com/schen39/luci-app-serverchan.git
+       # git clone https://github.com/cqranjian/luci-app-kod.git
        git clone https://github.com/cqranjian/luci-app-pptp-vpnserver.git
        # git clone https://github.com/cnzd/luci-app-koolproxyR.git
        # git clone https://github.com/jerrykuku/luci-app-vssr.git
@@ -419,15 +419,14 @@ jobs:
           # CONFIG_PACKAGE_luci-lib-docker=y
           CONFIG_PACKAGE_luci-app-mwan3helper=y
           # CONFIG_PACKAGE_luci-app-v2ray-server=y
-          # CONFIG_PACKAGE_luci-app-kodexplorer=y
-          CONFIG_PACKAGE_luci-app-kod=y
+          # CONFIG_PACKAGE_luci-app-kod=y
           CONFIG_PACKAGE_luci-app-nfs=y
           # CONFIG_PACKAGE_luci-app-verysync=y
           CONFIG_PACKAGE_luci-app-usb-printer=y
           CONFIG_PACKAGE_luci-app-hd-idle=y
           # CONFIG_PACKAGE_luci-app-minidlna=y
           CONFIG_PACKAGE_qBittorrent=y
-          CONFIG_PACKAGE_luci-app-qbittorrent=y
+          # CONFIG_PACKAGE_luci-app-qbittorrent=y
           CONFIG_PACKAGE_luci-app-openvpn-server=y
           CONFIG_PACKAGE_luci-app-pptp-vpnserver=y
           CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
